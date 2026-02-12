@@ -23,8 +23,8 @@ const corsOptions = {
     // Check if the origin is allowed
     const allowedOrigins = [
       "http://localhost:5173",
-      "https://adkap.org",
-      "https://www.adkap.org",
+      "https://mern.adkap.org",
+      "https://www.mern.adkap.org",
     ];
     const isAllowed = allowedOrigins.includes(origin);
     callback(null, isAllowed ? origin : false);
